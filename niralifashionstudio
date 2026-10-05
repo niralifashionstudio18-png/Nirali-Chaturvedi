@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nirali Fashion Studio</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff8fa;
+    color: #333;
+}
+
+header {
+    background: #8b1e3f;
+    color: white;
+    text-align: center;
+    padding: 22px 10px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header p {
+    margin-top: 6px;
+}
+
+nav {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+nav a {
+    color: #8b1e3f;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 45px 20px;
+    background: #f9e1e8;
+}
+
+.hero h2 {
+    color: #8b1e3f;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.shop-btn {
+    display: inline-block;
+    background: #8b1e3f;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.products {
+    padding: 35px 15px;
+}
+
+.products h2 {
+    text-align: center;
+    color: #8b1e3f;
+    margin-bottom: 25px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.product {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px #ddd;
+    padding-bottom: 15px;
+}
+
+.product img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.product h3 {
+    font-size: 17px;
+    margin: 12px 10px 5px;
+}
+
+.price {
+    color: #8b1e3f;
+    font-weight: bold;
+    margin: 0 10px 12px;
+}
+
+.cart
